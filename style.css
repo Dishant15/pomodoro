@@ -1,0 +1,68 @@
+body {
+  background: #555;
+  color: white;
+}
+
+h1 {
+  font-family:"Times New Roman", Times, serif;
+  font-size:350%;
+}
+
+.timer-default {
+  font-size: 200%;
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.change {
+    cursor:pointer;
+}
+
+.circle {
+  margin-top: 40px;
+  width: 350px;
+  height: 350px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 50%;
+  border: 2px #66ff33 solid;
+  position: relative;
+  left: 35%;
+  top: 40%;
+  cursor:pointer;
+}
+
+.timer-text {
+  position: absolute;
+  top: 105px;
+  left: 65px;
+  font-size: 600%;
+  color: yellow;
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.timer-head {
+  position: absolute;
+  top: 40px;
+  left: 95px;
+  font-size: 300%;
+  color: #ff3300;
+}
+
+.reset {
+  position: relative;
+  margin: 40px 20px;
+  width: 200px;
+}
